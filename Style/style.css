@@ -627,13 +627,107 @@ article {
     margin-bottom: 10px;
 }
 
-
-
-
-.servicios_medico{
+.contact {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 95vh;
+    height: 93vh;
+}
+
+.container_contact {
+    width: 500px;
+}
+
+.container_contact h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.container_contact form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_contact form input {
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.container_contact form textarea {
+    width: 80%;
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.container_contact form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
     background: rgb(0, 162, 255);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+footer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: rgba(0, 162, 255, 0.397);
+    color: #000;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.container_footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.container_footer .redes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+}
+
+.red {
+    margin-top: 15px;
+}
+
+.red a{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.contacto p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
 }

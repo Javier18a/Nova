@@ -1,0 +1,182 @@
+@media screen and (max-width: 768px) {
+
+    body p{
+        font-size: 14px;
+    }
+    
+    header{
+        height: 140px;
+    }
+
+    .container_nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container_nav nav{
+        margin-top: 10px;
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_nav nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        text-align: center;
+    }
+
+    .container_nav nav ul li{
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    main{
+        height: 80vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .loader{
+        width: 200px;
+        height: 200px;
+    }
+
+    .react-star{
+        max-width: 100px;
+        height: 100px;
+    }
+
+    .electron{
+        width: 220px;
+        height: 80px;
+    }
+
+    .present{
+        max-width: 300px;
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+        text-align: center;
+    }
+
+    article{
+        height: auto;
+        padding: 30px 0 30px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_especialidades{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_especialidades h2{
+        font-size: 25px;
+    }
+
+    .container_especialidades p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .cards_especialidades{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card_especialidad{
+        width: 160px;
+        height: 230px;
+        margin: 5px;
+    }
+
+    .card_especialidad span{
+        font-size: 15px;        
+    }
+
+    .about{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_about{
+        max-width: 300px;
+    }
+
+    .statistics{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .stat-card{
+        width: 160px;
+        height: 160px;
+        margin: 5px;
+    }
+
+    .section_veneficios{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_veneficios{
+        height: auto;
+        width:  100%; ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_veneficios > p{
+        max-width: 310px;
+        font-size: 14px;
+    }
+
+    .cards_veneficios{
+        height: auto;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card_veneficio{
+        width: 160px;
+        height: 230px;
+    }
+
+    .contact{
+        border-top: 2px solid #000;
+        height: auto;
+        margin: 20px 0 20px 0;
+    }
+    
+    .container_footer{
+        flex-direction: column;
+    }
+
+
+
+    
+   
+}
